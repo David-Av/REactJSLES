@@ -138,3 +138,4 @@ export default App;
 // u et teg@ vor dnenq inch vor tex ashxatelu a eji vra
 // eji vra vor grum enq < App /> react@ inq@ kanchuma et funcian
 
+//das 13ic sksanq ashxatel gitov
