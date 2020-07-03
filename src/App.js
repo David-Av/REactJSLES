@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css'; //css style na petqa import anel stex
-import Header from './components/Header';
-import Nav from './components/Navbar';
-import Profile from './components/Profile';
+import Header from './components/Header/Header';
+import Nav from './components/Navbar/Navbar';
+import Profile from './components/Profile/Profile';
 // import Header from './Header';
 // import Technologies from './Technologies';
 // import Footer from './Footer';
