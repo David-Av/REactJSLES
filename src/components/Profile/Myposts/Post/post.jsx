@@ -7,7 +7,7 @@ const Post =(props) =>{
         <img src="https://cs7.pikabu.ru/post_img/big/2018/10/20/9/154004999513599819.jpg" alt=""/>
         {props.message}
         <div>
-        <span>like</span>
+        <span>{props.like}</span>
         </div>
       </div>
     )
