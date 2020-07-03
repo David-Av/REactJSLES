@@ -14,3 +14,5 @@ const Post =() =>{
 }
 
 export default Post;
+
+//razdrobleno
