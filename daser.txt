@@ -1,0 +1,9 @@
+das 16 props
+component@ et funcia a vor heta talis jsx razmetka
+bayc menq grum enq iran tegi tesqov
+react@ ashxatacnuma et funcian
+componentmel funciayi nman kara stana argumentner
+defaultov misht react@ datark object a poxancum componentin
+qani vor componentnner@ grum enq atribunerov karanq atribut avelacnenq orinak post@ grenq <post name="anun" age="tariq"/>
+eti kpoxancvi componentin vorpes argument jsx-i mej ete uzumes
+javascript gres petq sranq dnes {}
