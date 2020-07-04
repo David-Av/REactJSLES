@@ -29,3 +29,6 @@ inq@ <a></a>   a mnalu vor nayes nuyn href-ov prost@ et funcia aveli chisht comp
 u navlink@ defaultov a tegin avelacnuma active class@
 ete xarnvuma classner@ karanq navlink i mej grenq
 activeClassName u tanq mer uzac class@
+**************
+das 21
+Dialogs ej@ tetev verstka
