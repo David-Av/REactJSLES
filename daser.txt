@@ -20,5 +20,12 @@ sax ej@ petqa wrap anenq <BrowserRouter> i mej
 nax petqa linkerin href grel <a href="/profile">Profile</a>
 heto route mej nshel
 <Route path="/profile" component={Profile}/> path@
-
+*************************************************************
 das 20
+nenc enq anum vor ejer@ poxeluc glxavor ej@ reload chlini 
+es dasi mej sax a-er@ poxum enq navbarum grum enq <Navlink hrefi texn el grum enq to='/profile'></Navlink> navlink@ eli component a eli importov
+esi arden kochvuma SPA single page application bayc console-i mej
+inq@ <a></a>   a mnalu vor nayes nuyn href-ov prost@ et funcia aveli chisht componenti mej verjum graca preventDefault() defaultov a misht reload er anum stranicen eti graca vor chani
+u navlink@ defaultov a tegin avelacnuma active class@
+ete xarnvuma classner@ karanq navlink i mej grenq
+activeClassName u tanq mer uzac class@
