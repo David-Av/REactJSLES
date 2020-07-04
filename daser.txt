@@ -29,6 +29,17 @@ inq@ <a></a>   a mnalu vor nayes nuyn href-ov prost@ et funcia aveli chisht comp
 u navlink@ defaultov a tegin avelacnuma active class@
 ete xarnvuma classner@ karanq navlink i mej grenq
 activeClassName u tanq mer uzac class@
-**************
+/////////////////////////////////////////////////////////////
+*************************************************************
 das 21
 Dialogs ej@ tetev verstka
+/////////////////////////////////////////////////////////////
+*************************************************************
+das 22 Route exact
+Dialogsin Navlinker avelacrecinq nayel anpayman to-n vonca grac
+mejner@ /dialogg/3 demi dialog@ graca vor dialogs ej@ chpoxvi
+url-um
+ete uzumenq vor en vaxt erb vor url-um graca /dialogs/1 et vaxt
+cuyc chta konkret dialogs ej@ petqa app.js-um grac Rout@ sarqenq
+senc <Route exact path="/dialogs" component={Dialogs}/>
+avelacnenq exact bar@

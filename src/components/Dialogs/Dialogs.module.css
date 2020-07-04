@@ -4,10 +4,18 @@
 }
 .dialogs_item{
     padding: 10px ;
+    font-size:1.5em ;
+
+
 }
+.dialog a{
+    text-decoration: none;
+}
+.dialog  .activeL{
+    font-weight: bold;
+}
+
 .dialogs_item .active{
-    color: gold;
-}
-.item{
     color: hotpink;
+    font-weight: bold;
 }
