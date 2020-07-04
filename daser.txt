@@ -20,3 +20,5 @@ sax ej@ petqa wrap anenq <BrowserRouter> i mej
 nax petqa linkerin href grel <a href="/profile">Profile</a>
 heto route mej nshel
 <Route path="/profile" component={Profile}/> path@
+
+das 20
