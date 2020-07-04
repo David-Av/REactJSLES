@@ -1,23 +1,19 @@
-import React from 'react';
-import s from './Profile.module.css';
-import Myposts from './Myposts/Myposts';
-const Profile = ()=>{
-    return(
-        <div >
-        <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTrKHPsvNDJHY9tWpkHrfkfo8Dkf0LvZU3Hdg&usqp=CAU"/>
-      
-      <div >
-        AVA +DESC
-      </div>
-
-      <Myposts/>
+import React from "react";
+import s from "./Profile.module.css";
+import Myposts from "./Myposts/Myposts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
+const Profile = () => {
+  return (
+    <div>
+      <ProfileInfo />
+      <Myposts />
     </div>
-    )
-}
+  );
+};
 export default Profile;
 
-
-      {/* <div>
+{
+  /* <div>
         MY POSTS
         <div className ={p.posts}>
           NEW POST
@@ -28,4 +24,5 @@ export default Profile;
         <div className ={p.item}>
           POST 2
         </div>
-      </div> */}
+      </div> */
+}

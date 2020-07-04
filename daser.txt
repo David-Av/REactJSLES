@@ -43,3 +43,9 @@ ete uzumenq vor en vaxt erb vor url-um graca /dialogs/1 et vaxt
 cuyc chta konkret dialogs ej@ petqa app.js-um grac Rout@ sarqenq
 senc <Route exact path="/dialogs" component={Dialogs}/>
 avelacnenq exact bar@
+//////////////////////////////////////////////////////////////
+**************************************************************
+das23
+dialognerni meji grac diver@ poxecinq componentnneri u 
+ashxatecinq componentnneri propserov u nuynnel messagneri het
+u miqichel profile@

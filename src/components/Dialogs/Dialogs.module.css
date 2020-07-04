@@ -1,21 +1,19 @@
-.dialogs{
-    display: grid;
-    grid-template-columns: 3fr 7fr;
+.dialogs {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
 }
-.dialogs_item{
-    padding: 10px ;
-    font-size:1.5em ;
-
-
+.dialogs_item {
+  padding: 10px;
+  font-size: 1.5em;
 }
-.dialog a{
-    text-decoration: none;
+.dialog a {
+  text-decoration: none;
 }
-.dialog  .activeL{
-    font-weight: bold;
+.dialog .activeL {
+  font-weight: bold;
 }
 
-.dialogs_item .active{
-    color: hotpink;
-    font-weight: bold;
+.dialogs_item .active {
+  color: hotpink;
+  font-weight: bold;
 }

@@ -1,41 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css'; //css style na petqa import anel stex
-import Header from './components/Header/Header';
-import Nav from './components/Navbar/Navbar';
-import Profile from './components/Profile/Profile';
-import Dialogs from './components/Dialogs/Dialogs';
-import { Route, BrowserRouter } from 'react-router-dom';
-import News from './components/News/News';
-import Music from './components/Music/Music';
-import Settings from './components/Settings/Settings';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css"; //css style na petqa import anel stex
+import Header from "./components/Header/Header";
+import Nav from "./components/Navbar/Navbar";
+import Profile from "./components/Profile/Profile";
+import Dialogs from "./components/Dialogs/Dialogs";
+import { Route, BrowserRouter } from "react-router-dom";
+import News from "./components/News/News";
+import Music from "./components/Music/Music";
+import Settings from "./components/Settings/Settings";
 // import Header from './Header';
 // import Technologies from './Technologies';
 // import Footer from './Footer';
 
 //das12----------
 const App = (props) => {
-  return(
+  return (
     <BrowserRouter>
-    <div className ="app-wrapper">
-    <Header />
-    <Nav />
-    <div className = 'app-wrapper-content'>
-    <Route  path="/dialogs" component={Dialogs}/>
-    <Route path="/profile" component={Profile}/>
-    <Route path="/news" component={News}/>
-    <Route path="/music" component={Music}/>
-    <Route path="/settings" component={Settings}/>
-    {/* <Profile/> */}
-    {/* <Dialogs /> */}
-    {/* <News/> */}
-    {/* <Music/>
+      <div className="app-wrapper">
+        <Header />
+        <Nav />
+        <div className="app-wrapper-content">
+          <Route path="/dialogs" component={Dialogs} />
+          <Route path="/profile" component={Profile} />
+          <Route path="/news" component={News} />
+          <Route path="/music" component={Music} />
+          <Route path="/settings" component={Settings} />
+          {/* <Profile/> */}
+          {/* <Dialogs /> */}
+          {/* <News/> */}
+          {/* <Music/>
     <Settings/> */}
-    </div>
-    </div>
+        </div>
+      </div>
     </BrowserRouter>
-  )
-}
+  );
+};
 //das12verj
 /*
 function App() {
@@ -66,7 +66,7 @@ function App() {
 //      mihat glxavor div petqa lini u sax dra mej
 //     chi kara stex mihatel ay senc sranic arandzin lini
 //      <div></div>
-//      karanq nor komponent stexcen i senc grelov dnenq 
+//      karanq nor komponent stexcen i senc grelov dnenq
 //       urish komponenti mej
 //     <div>
 //       <Header />
@@ -101,7 +101,7 @@ function App() {
 //       </nav>
 //       <div className = "content">
 //         <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTrKHPsvNDJHY9tWpkHrfkfo8Dkf0LvZU3Hdg&usqp=CAU"/>
-      
+
 //       <div>
 //         AVA +DESC
 //       </div>
@@ -134,7 +134,7 @@ function App() {
 // }
 // const Technologies = () =>{
 //   return (
-//     <div > 
+//     <div >
 //     <ul>
 //       <li>css</li>
 //       <li>HTML</li>
@@ -147,7 +147,7 @@ function App() {
 export default App;
 // das 06-07***********************************************
 // ka tenc ban vor@ kochvuma JSX
-// htmla bayc irakanum 
+// htmla bayc irakanum
 // component@ karch asasc funcia a vor@ return a anum JSX razmetka
 // orinak App-n
 //componentneric sarqvuma sax app@
