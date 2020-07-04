@@ -4,18 +4,36 @@ import './App.css'; //css style na petqa import anel stex
 import Header from './components/Header/Header';
 import Nav from './components/Navbar/Navbar';
 import Profile from './components/Profile/Profile';
+import Dialogs from './components/Dialogs/Dialogs';
+import { Route, BrowserRouter } from 'react-router-dom';
+import News from './components/News/News';
+import Music from './components/Music/Music';
+import Settings from './components/Settings/Settings';
 // import Header from './Header';
 // import Technologies from './Technologies';
 // import Footer from './Footer';
 
 //das12----------
-const App = () => {
+const App = (props) => {
   return(
+    <BrowserRouter>
     <div className ="app-wrapper">
-     <Header/>
-    <Nav/>
-    <Profile/>
+    <Header />
+    <Nav />
+    <div className = 'app-wrapper-content'>
+    <Route path="/dialogs" component={Dialogs}/>
+    <Route path="/profile" component={Profile}/>
+    <Route path="/news" component={News}/>
+    <Route path="/music" component={Music}/>
+    <Route path="/settings" component={Settings}/>
+    {/* <Profile/> */}
+    {/* <Dialogs /> */}
+    {/* <News/> */}
+    {/* <Music/>
+    <Settings/> */}
     </div>
+    </div>
+    </BrowserRouter>
   )
 }
 //das12verj

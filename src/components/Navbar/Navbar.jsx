@@ -1,8 +1,8 @@
 import React from 'react';
-import classes from './Navbar.module.css'
- // css petqa modulenrov grenq vor amen meki hamar orinak item class@ sax texer@ grac lini item bayc tarber linen petqa Navbar.css tex@ grel Navbar.module.css u import anel stex classes@ es voncvor taza object sarqem pahuma sax ira mej dursa galis senc
+import s from './Navbar.module.css'
+ // css petqa modulenrov grenq vor amen meki hamar orinak item class@ sax texer@ grac lini item bayc tarber linen petqa Navbar.css tex@ grel Navbar.module.css u import anel stex s@ es voncvor taza object sarqem pahuma sax ira mej dursa galis senc
 /* 
-  let classes = {
+  let s = {
     "nav":"u stex ira parametrer@",
     "item" : u stex orinak font-color:white
   }
@@ -12,21 +12,21 @@ import classes from './Navbar.module.css'
 */
 const Nav =()=>{
     return(
-        <nav className = {classes.nav}>
-        <div className = {classes.item}>
-          <a>Profile</a>
+        <nav className = {s.nav}>
+        <div className = {s.item}>
+          <a href="/profile">Profile</a>
         </div>
-        <div className = {classes.item}>
-          <a>Messages</a>
+        <div className = {s.item}>
+          <a href="/dialogs">Messages</a>
         </div>
-        <div className = {classes.item}> 
-          <a>News</a>
+        <div className = {s.item}> 
+          <a href="/news">News</a>
         </div>
-        <div className = {classes.item}>
-          <a>Music</a>
+        <div className = {s.item}>
+          <a href="/music">Music</a>
         </div>
-        <div className = {classes.item}>
-          <a>Settings</a>
+        <div className = {s.item}>
+          <a href="/settings">Settings</a>
         </div>
       </nav>
         

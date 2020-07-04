@@ -7,3 +7,16 @@ defaultov misht react@ datark object a poxancum componentin
 qani vor componentnner@ grum enq atribunerov karanq atribut avelacnenq orinak post@ grenq <post name="anun" age="tariq"/>
 eti kpoxancvi componentin vorpes argument jsx-i mej ete uzumes
 javascript gres petq sranq dnes {}
+*******************************************************
+das 19 routing
+petqa paket ustanovka anenq sra hamar skzbic $ npm i react-router-dom bayc node nenc petqa anenq vor gitignore chlini
+aysinqn uxarkeluc inqnel gna git petqa grenq  $ npm i react-router-dom -save vor gna package.json-i mej vor hetaga
+ogtagorcoxner@ karenan iranq el install anen et install aneluc heto app.js grum enq <Route/> component@ ay senc 
+<BrowserRouter>
+    <Route component = {Dialogs}/>
+    <Route component = {Profile}/>
+</BrowserRouter>
+sax ej@ petqa wrap anenq <BrowserRouter> i mej
+nax petqa linkerin href grel <a href="/profile">Profile</a>
+heto route mej nshel
+<Route path="/profile" component={Profile}/> path@
