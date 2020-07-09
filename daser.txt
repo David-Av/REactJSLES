@@ -60,3 +60,26 @@ hajordin sax kuxenq
 //////////////////////////////////////////////////////////////
 **************************************************************
 das 25
+sksum enq ashxatel mapov poxancel propser@ react-um vor jsx-i mej 
+grum enq zangvac es {} sranc mej inq@ sax kpcnum irar toxov cuyc a talis
+zangvaci mej karanq dnenq henc component@ tenc kashxati tox chi sarqi
+karanq senc anenq 
+let elementsData = [
+  <DialogItem name={dialogsData[0].name} id={dialogsData[0].id} />,
+        <DialogItem name={dialogsData[1].name} id={dialogsData[1].id} />
+]
+u arden jsx - mej grenq {elementsData}  u kashxati 
+es grel ei senc       
+ {dialogsData.map((elem => {
+          return (
+            <DialogItem name= {elem.name} id = {elem.id} />
+          )
+        }))}
+        bayc es mer axper@ asum taza masiv stananq heto eti grenq
+         let elementsData = dialogsData.map((elem => {
+  return (
+    <DialogItem name= {elem.name} id = {elem.id} />
+  )
+}))
+        u jsx- mej {elementsData}
+         

@@ -21,35 +21,34 @@ let dialogsData = [
   { id: 3, name: "Ezo" },
   { id: 4, name: "Jennifer" }
 ];
-let messagesData = [
+let messages = [
   { id: 5, message: "hi" },
   { id: 1, message: "barev" },
   { id: 2, message: "privet" },
   { id: 3, message: "Yo" },
   { id: 4, message: "YO" }
 ]
+let messagesElement = messages
+.map(element=> <Message message = {element.message} id = {element.id} /> )
 
+ let elementsData = dialogsData.map((elem => {
+  return (
+    <DialogItem name= {elem.name} id = {elem.id} />
+  )
+}))
 let Dialogs = (props) => {
   return (
     <div className={s.dialogs}>
       <div className={s.dialogs_item}>
-        {/* <DialogItem name="David" id="5" />
-        <DialogItem name="Ani" id="1" />
-        <DialogItem name="John" id="2" />
-        <DialogItem name="Ezo" id="3" />
-        <DialogItem name="Jennifer" id="4" /> */}
-        <DialogItem name={dialogsData[0].name} id={dialogsData[0].id} />
-        <DialogItem name={dialogsData[1].name} id={dialogsData[1].id} />
+      {elementsData}
       </div>
       <div className={s.messages}>
-        {/* <Message message="HI" />
-        <Message message="Barev" />
-        <Message message="Privet" /> */}
-        <Message message = {messagesData[0].message} />
-        <Message message = {messagesData[1].message} />
+        {messagesElement}
       </div>
     </div>
   );
+  
+  
 };
 
 export default Dialogs;
