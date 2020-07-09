@@ -48,4 +48,15 @@ avelacnenq exact bar@
 das23
 dialognerni meji grac diver@ poxecinq componentnneri u 
 ashxatecinq componentnneri propserov u nuynnel messagneri het
-u miqichel profile@
+u miqichel profile@ u miqichel poster@ poxecinq
+//////////////////////////////////////////////////////////////
+**************************************************************
+das 24
+patrastvum enq vor mapov poxancenq propser@ componentnnerin
+es dasin aranc mapi prost@ stexcum enq massivner u grum propsin
+poxancvelu tex@ hajordin ksarqenq map-ov vor poxancvi u ruchnoy
+etqan chgrenq vabshe chisht chi ruchnoy UI u BLL senc hardcode em arel
+hajordin sax kuxenq
+//////////////////////////////////////////////////////////////
+**************************************************************
+das 25
