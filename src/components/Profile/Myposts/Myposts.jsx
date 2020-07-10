@@ -2,13 +2,13 @@ import React from "react";
 import s from "./Myposts.module.css";
 import Post from "./Post/post";
 
-let posts = [
-  {id:1,post:"hi, how are you?" , likes : 12},
-  {id:2,post:"It's my first POst" , likes : 187},
-  {id:3, post:"post"}
-]
-let postsElements = posts
-.map(element => <Post message = {element.post} like={element.likes}/>)
+// let posts = [
+//   {id:1,post:"hi, how are you?" , likes : 12},
+//   {id:2,post:"It's my first POst" , likes : 187},
+//   {id:3, post:"post"}
+// ]
+// let postsElements = posts
+// .map(element => <Post message = {element.post} like={element.likes}/>)
 const Myposts = (props) => {
   return (
     <div className={s.postsBlock}>
@@ -21,7 +21,8 @@ const Myposts = (props) => {
       </div>
       <div className={s.posts}>NEW POST</div>
 
-    {postsElements}
+    {/* {postsElements} */}
+    {props.mypostp}
     
     </div>
   );

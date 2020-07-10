@@ -29,7 +29,7 @@ const App = (props) => {
 
 
           <Route path="/dialogs" render={()=><Dialogs/>} />
-          <Route path="/profile" component={()=><Profile/>} />
+          <Route path="/profile" component={()=><Profile mypost = {props.myposti}/>} />
           {/* <Profile/> */}
           {/* <Dialogs /> */}
           {/* <News/> */}
