@@ -107,3 +107,6 @@ darcnum enq senc
 <Route path="/dialogs" render={()=><Dialogs/>} />
 sax arvuma nra hamar vor karenanq es etapi vra danniner@ grenq index.js
 um heto propsov poxancenq app.js-in u ira mejic el poxancenq et componentin u inqnuruyn porcum enq sax texapoxel app.js himma commit kanem aa
+//////////////////////////////////////////////////////////////
+**************************************************************
+das 28 arecinq sax taranq index-js i mej commit araca
