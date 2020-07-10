@@ -28,7 +28,7 @@ const App = (props) => {
           <Route path="/settings" component={Settings} />
 
 
-          <Route path="/dialogs" render={()=><Dialogs/>} />
+          <Route path="/dialogs" render={()=><Dialogs dialogsData={props.dialogsData} dialogsmessages={props.dialogsmessages}/>} />
           <Route path="/profile" component={()=><Profile mypost = {props.myposti}/>} />
           {/* <Profile/> */}
           {/* <Dialogs /> */}
