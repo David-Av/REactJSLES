@@ -106,4 +106,4 @@ app- mej grac route@ poxum enq es tesqic
 darcnum enq senc 
 <Route path="/dialogs" render={()=><Dialogs/>} />
 sax arvuma nra hamar vor karenanq es etapi vra danniner@ grenq index.js
-um heto propsov poxancenq app.js-in u ira mejic el poxancenq et componentin u inqnuruyn porcum enq sax texapoxel app.js himma commit kanem
+um heto propsov poxancenq app.js-in u ira mejic el poxancenq et componentin u inqnuruyn porcum enq sax texapoxel app.js himma commit kanem aa
