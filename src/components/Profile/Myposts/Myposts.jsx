@@ -9,7 +9,7 @@ let posts = [
 ]
 let postsElements = posts
 .map(element => <Post message = {element.post} like={element.likes}/>)
-const Myposts = () => {
+const Myposts = (props) => {
   return (
     <div className={s.postsBlock}>
      <h2> MY POSTS</h2>
@@ -22,6 +22,7 @@ const Myposts = () => {
       <div className={s.posts}>NEW POST</div>
 
     {postsElements}
+    
     </div>
   );
 };

@@ -1,3 +1,6 @@
+daser vor petqa krknel
+DAS 26
+//////////////////////
 das 16 props
 component@ et funcia a vor heta talis jsx razmetka
 bayc menq grum enq iran tegi tesqov
@@ -20,6 +23,8 @@ sax ej@ petqa wrap anenq <BrowserRouter> i mej
 nax petqa linkerin href grel <a href="/profile">Profile</a>
 heto route mej nshel
 <Route path="/profile" component={Profile}/> path@
+rout@ hetevuma urlin ete url-um gruma profile inq@ profile componentna
+zagruzka anum
 *************************************************************
 das 20
 nenc enq anum vor ejer@ poxeluc glxavor ej@ reload chlini 
@@ -29,6 +34,8 @@ inq@ <a></a>   a mnalu vor nayes nuyn href-ov prost@ et funcia aveli chisht comp
 u navlink@ defaultov a tegin avelacnuma active class@
 ete xarnvuma classner@ karanq navlink i mej grenq
 activeClassName u tanq mer uzac class@
+navlink@ poxuma url@ isk Route component@ vor ancac dasin grel enq 
+app.js-mej hetevuma urlin u zagruzka a anum ira mej nshvac component@
 /////////////////////////////////////////////////////////////
 *************************************************************
 das 21
@@ -82,4 +89,12 @@ es grel ei senc
   )
 }))
         u jsx- mej {elementsData}
-         
+///////////////////////////////////////////////////////////////
+***************************************************************
+das 26
+hishecinq strukturan noric bajanecinq dialogi componentnner@
+u karevor eli baner petqa esi krknel u tetev redux-i masin  
+19:00ic; BLL-ic u Reduxic galis UI UI-nel reactna nkaruma cuyca talis mez
+danniner@ petqa linen urish tex voch te UI-um henc himikva gracov
+danniner@ UI mej mypost mej graca heto kuxenq hl@ vor chgitem vonc
+ componenti mej danniner petq chi grac linen
