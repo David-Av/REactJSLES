@@ -110,3 +110,10 @@ um heto propsov poxancenq app.js-in u ira mejic el poxancenq et componentin u in
 //////////////////////////////////////////////////////////////
 **************************************************************
 das 28 arecinq sax taranq index-js i mej commit araca
+//////////////////////////////////////////////////////////////
+**************************************************************
+das 29
+danniner@ hanum enq index.js-ic qcum enq state.js-mej petqa state.js@ import  anenq index.js i mej heto sksenq dranic vonc haskaca reduxi
+nman ban enq uzum stananq hl@ reduxic vabshe texyak chenq
+taranq danniner@ state.js poxancecinq aveli akuratni objectneri mijocov
+ karas het tas nayes commit@

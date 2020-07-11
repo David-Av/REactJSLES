@@ -27,9 +27,16 @@ const App = (props) => {
           <Route path="/music" component={Music} />
           <Route path="/settings" component={Settings} />
 
-
-          <Route path="/dialogs" render={()=><Dialogs dialogsData={props.dialogsData} dialogsmessages={props.dialogsmessages}/>} />
-          <Route path="/profile" component={()=><Profile mypost = {props.myposti}/>} />
+          <Route
+            path="/dialogs"
+            render={() => <Dialogs state={props.appState.messagesPage} />}
+          />
+          <Route
+            path="/profile"
+            component={() => (
+              <Profile mypost={props.appState.profilePage.posts} />
+            )}
+          />
           {/* <Profile/> */}
           {/* <Dialogs /> */}
           {/* <News/> */}
@@ -161,5 +168,3 @@ export default App;
 // eji vra vor grum enq < App /> react@ inq@ kanchuma et funcian
 
 //das 13ic sksanq ashxatel gitov
-
-
