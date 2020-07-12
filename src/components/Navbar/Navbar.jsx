@@ -11,7 +11,16 @@ import { NavLink } from 'react-router-dom';
   Navbar_nav__365465465 orinak
   u petqa grenq senc nayi tak@
 */
-const Nav =()=>{
+const Nav =(props)=>{
+let myfrindsState=props.state.myfriends
+    .map(elem=><div className={s.Myfriends__d__Wrapper}>
+      <div className={s.Myfriendsdimg}>
+      <img src={elem.img} alt=""/>
+      </div>
+      <div className={s.myfriends__Div__Text}>
+      {elem.name}
+      </div>
+      </div>);
     return(
         <nav className = {s.nav}>
         <div className = {s.item}>
@@ -34,9 +43,57 @@ const Nav =()=>{
           {/* <a href="/settings">Settings</a> */}
           <NavLink to ="/settings" activeClassName = {s.activeLink}>Setiings</NavLink>
         </div>
+        <div className={s.myfriendsDivw}>
+          <div className={s.friends_header}>
+            My friends
+          </div>
+          {myfrindsState}
+        </div>
+        
       </nav>
         
         
     )
 }
+
 export default Nav;
+            {/* <div className={s.Myfriends__d__Wrapper}>
+            <div className={s.Myfriendsdimg}>
+            <img src="https://www.meme-arsenal.com/memes/335bf12b9769dbcefc4de998cd023aae.jpg" alt=""/>
+            </div>
+            <div className={s.myfriends__Div__Text}>
+              sdjkhsdjkh
+            </div>
+            </div>
+            <div className={s.Myfriends__d__Wrapper}>
+            <div className={s.Myfriendsdimg}>
+            <img src="https://www.meme-arsenal.com/memes/335bf12b9769dbcefc4de998cd023aae.jpg" alt=""/>
+            </div>
+            <div className={s.myfriends__Div__Text}>
+              sdjkhsdjkh
+            </div>
+            </div>
+            <div className={s.Myfriends__d__Wrapper}>
+            <div className={s.Myfriendsdimg}>
+            <img src="https://www.meme-arsenal.com/memes/335bf12b9769dbcefc4de998cd023aae.jpg" alt=""/>
+            </div>
+            <div className={s.myfriends__Div__Text}>
+              sdjkhsdjkh
+            </div>
+            </div>
+            <div className={s.Myfriends__d__Wrapper}>
+            <div className={s.Myfriendsdimg}>
+            <img src="https://www.meme-arsenal.com/memes/335bf12b9769dbcefc4de998cd023aae.jpg" alt=""/>
+            </div>
+            <div className={s.myfriends__Div__Text}>
+              sdjkhsdjkh
+            </div>
+            </div>
+            <div className={s.Myfriends__d__Wrapper}>
+            <div className={s.Myfriendsdimg}>
+            <img src="https://www.meme-arsenal.com/memes/335bf12b9769dbcefc4de998cd023aae.jpg" alt=""/>
+            </div>
+            <div className={s.myfriends__Div__Text}>
+              sdjkhsdjkh
+            </div>
+            </div> */}

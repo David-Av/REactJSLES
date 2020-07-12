@@ -1,13 +1,43 @@
-.nav{
+.nav {
   grid-area: n;
   background-color: red;
 }
-.item a{
+.item a {
   color: white;
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
 }
-.item .activeLink{
+.item .activeLink {
   color: black;
+}
+.myfriendsDivw {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(30px, auto);
+}
+.myfriendsDivw div {
+  border-radius: 50%;
+  display: grid;
+}
+.myfriendsDivw img {
+  grid-column: 1/4;
+  display: block;
+  margin: auto;
+  width: 100%;
+  border-radius: 50%;
+}
+.myfriendsDivw .friends_header {
+  text-align: center;
+  grid-column: 1/4;
+  grid-area: "header";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.myfriends__Div__Text{
+  font-weight: bold;
+  text-align: center;
 }

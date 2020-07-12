@@ -25,6 +25,13 @@
         { id: 4, message: "YO" }
       ]
       },
+      sidebar:{
+          myfriends:[
+              {name:"Davit",img:"https://www.meme-arsenal.com/memes/335bf12b9769dbcefc4de998cd023aae.jpg"},
+              {name:"Ani", img:"https://www.meme-arsenal.com/memes/335bf12b9769dbcefc4de998cd023aae.jpg"},
+              {name:"John", img:"https://www.meme-arsenal.com/memes/335bf12b9769dbcefc4de998cd023aae.jpg"}
+          ]
+      }
       // verj*****************************************************************
 
   }
