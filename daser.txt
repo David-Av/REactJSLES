@@ -135,3 +135,27 @@ let text = newPostElement.current.value
 /*current@ stex asuma vor henc et elementi 
 masina xosq@ bayc itogum esi asuma vor referov meka eli ashxatum enq DOM-i
 het voch te virtual DOM-i het
+/////////////////////////////////////////////////////////////
+*************************************************************
+das32
+componenti propserov funcia enq poaxncum state-um grum enq bayc chgidem xi
+grecinq objectic durs u petq iran export anenq aran defaultov ay senc grelov
+export let addPost = (postMessage) =>{
+    let newPost = {
+      id:7,
+      message:postMessage,
+      likes: 0
+    };
+    state.profilePage.posts.push(newPost)
+  } aysinqn export grecinq demic ira u import@ index.js petq senc anenq
+  import {addPost} from './Redux/state'; pakagcerov es depqum importi
+  vaxt anun@ petqa chisht grel nuyn@ hima lava qcecinq poxancvec normal
+  bayc mi ban ka index.js i mej vor graca  ReactDOM.render(
+  <React.StrictMode>
+    <BrowserRouter>
+    <App appState={state} addPost={addPost}/>
+    </BrowserRouter>
+  </React.StrictMode>,
+  document.getElementById('root')
+); aysinqn inq@ vercnum u mi angam nkaruma sax state@ u vsyo isk dra masin
+myus videoe-um kxosanq u es das@ arji eli nayel

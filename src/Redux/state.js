@@ -33,7 +33,15 @@
           ]
       }
       // verj*****************************************************************
-
+  
+  }
+export let addPost = (postMessage) =>{
+    let newPost = {
+      id:7,
+      post:postMessage,
+      likes: 0
+    };
+    state.profilePage.posts.push(newPost)
   }
 
   export default state;

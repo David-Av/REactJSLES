@@ -19,6 +19,7 @@ const App = (props) => {
     <div className="app-wrapper">
         <Header />
         <Nav state={props.appState.sidebar} />
+
         <div className="app-wrapper-content">
           {/* <Route path="/dialogs" component={Dialogs} /> */}
           {/* <Route path="/profile" component={Profile} /> */}
@@ -33,7 +34,7 @@ const App = (props) => {
           <Route
             path="/profile"
             component={() => (
-              <Profile mypost={props.appState.profilePage.posts} />
+              <Profile mypost={props.appState.profilePage.posts} addPost={props.addPost} />
             )}
           />
           {/* <Profile/> */}

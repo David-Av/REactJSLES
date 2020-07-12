@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import state from './Redux/state';
+import {addPost} from './Redux/state';
 import { BrowserRouter } from 'react-router-dom';
 //hanel em myposti mejic
 // let posts = [
@@ -30,10 +31,11 @@ import { BrowserRouter } from 'react-router-dom';
 //   { id: 4, message: "YO" }
 // ]
 //
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <App appState={state} />
+    <App appState={state} addPost={addPost}/>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
