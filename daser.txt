@@ -159,3 +159,28 @@ export let addPost = (postMessage) =>{
   document.getElementById('root')
 ); aysinqn inq@ vercnum u mi angam nkaruma sax state@ u vsyo isk dra masin
 myus videoe-um kxosanq u es das@ arji eli nayel
+///////////////////////////////////////////////////////////////
+***************************************************************
+das33
+dobavlenia posta na stenu Render-i masin vonc rerender anenq
+dra hamar arji taza funcia grel et es dasi hamara vabshe bayc chgitem et
+chishta te che dra hamar index.js @ grum enq senc 
+let rerenderEntireTree = () =>{
+  ReactDOM.render(
+    <React.StrictMode>
+      <BrowserRouter>
+      <App appState={state} addPost={addPost}/>
+      </BrowserRouter>
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+}
+rerenderEntireTree()
+aysinqn dnum enq funciayi mej bayc ban@ ena vor index.js-ic chenq kara
+iran import anenq state.js u grenq nra funcianeri mej dra hamar petqa 
+sarqenq mihta arandzin render.js file u dra mejic import anenq et 2 tex@
+state.js index.js
+bayc mihat taza knayes esi ciklayin xaxtumneri masinela xosum vor stat@
+chen kara mi qani tex import anenq aysinqn renderi mej petq chi state lini
+renderi mej graca prost@ funcian aranc kanchelu dra hamar stat@ petqa grenq
+kanchox texum import anenq iran tvyal depqum index.js-um import anenq

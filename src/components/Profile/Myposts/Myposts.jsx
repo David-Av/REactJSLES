@@ -16,7 +16,9 @@ const Myposts = (props) => {
   let newPostElement = React.createRef();
     let addPost = () => {
       let text = newPostElement.current.value;
-      props.addPost(text)}
+      props.addPost(text)
+      newPostElement.current.value = "";
+    }
   return (
     <div className={s.postsBlock}>
       <h2 > MY POSTS</h2>

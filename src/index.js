@@ -6,6 +6,9 @@ import * as serviceWorker from './serviceWorker';
 import state from './Redux/state';
 import {addPost} from './Redux/state';
 import { BrowserRouter } from 'react-router-dom';
+import {rerenderEntireTree} from './render'
+
+rerenderEntireTree(state);
 //hanel em myposti mejic
 // let posts = [
 //   {id:1,post:"hi, how are you?" , likes : 12},
@@ -32,14 +35,15 @@ import { BrowserRouter } from 'react-router-dom';
 // ]
 //
 
-ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-    <App appState={state} addPost={addPost}/>
-    </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <BrowserRouter>
+//     <App appState={state} addPost={addPost}/>
+//     </BrowserRouter>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
