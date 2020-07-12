@@ -117,3 +117,21 @@ danniner@ hanum enq index.js-ic qcum enq state.js-mej petqa state.js@ import  an
 nman ban enq uzum stananq hl@ reduxic vabshe texyak chenq
 taranq danniner@ state.js poxancecinq aveli akuratni objectneri mijocov
  karas het tas nayes commit@
+/////////////////////////////////////////////////////////////
+*************************************************************
+das31 
+sovorakan javascript-um menq ashxatum enq DOM-i het isk reactum
+ka virtual DOM u menq ashxatum enq virtual DOM-i het isk henc DOM-i 
+het ashxatuma react@ aysinqn menq petqa xusapenq en depqeric erb 
+vor henc menq enq ashxatum DOM- het petqa tanq virtual DOM-in 
+react@ vercni ev ashxati iskakan DOM-i het aysinqn reactum chenq grum
+document.getElementByID petq chi grel vabhse hl@ vor parz chi es metod@
+chishta te che bayc hima senc enq anum react@ uni funcia
+let newPostElement =  React.createRef()
+ssilka a sarqum depi et teg@ hima tenc enq porcum anel u et pahum enq popoxakani mej u vorpes atribut ref={newPostElement} grum enq tagi mej
+u vsyo inq@ kpav et tegin heto ete orinak text area-i mejic uzum enq 
+stananq value grum enq orinak senc 
+let text = newPostElement.current.value
+/*current@ stex asuma vor henc et elementi 
+masina xosq@ bayc itogum esi asuma vor referov meka eli ashxatum enq DOM-i
+het voch te virtual DOM-i het

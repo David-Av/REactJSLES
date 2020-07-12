@@ -49,7 +49,6 @@ let myfrindsState=props.state.myfriends
           </div>
           {myfrindsState}
         </div>
-        
       </nav>
         
         
@@ -57,43 +56,4 @@ let myfrindsState=props.state.myfriends
 }
 
 export default Nav;
-            {/* <div className={s.Myfriends__d__Wrapper}>
-            <div className={s.Myfriendsdimg}>
-            <img src="https://www.meme-arsenal.com/memes/335bf12b9769dbcefc4de998cd023aae.jpg" alt=""/>
-            </div>
-            <div className={s.myfriends__Div__Text}>
-              sdjkhsdjkh
-            </div>
-            </div>
-            <div className={s.Myfriends__d__Wrapper}>
-            <div className={s.Myfriendsdimg}>
-            <img src="https://www.meme-arsenal.com/memes/335bf12b9769dbcefc4de998cd023aae.jpg" alt=""/>
-            </div>
-            <div className={s.myfriends__Div__Text}>
-              sdjkhsdjkh
-            </div>
-            </div>
-            <div className={s.Myfriends__d__Wrapper}>
-            <div className={s.Myfriendsdimg}>
-            <img src="https://www.meme-arsenal.com/memes/335bf12b9769dbcefc4de998cd023aae.jpg" alt=""/>
-            </div>
-            <div className={s.myfriends__Div__Text}>
-              sdjkhsdjkh
-            </div>
-            </div>
-            <div className={s.Myfriends__d__Wrapper}>
-            <div className={s.Myfriendsdimg}>
-            <img src="https://www.meme-arsenal.com/memes/335bf12b9769dbcefc4de998cd023aae.jpg" alt=""/>
-            </div>
-            <div className={s.myfriends__Div__Text}>
-              sdjkhsdjkh
-            </div>
-            </div>
-            <div className={s.Myfriends__d__Wrapper}>
-            <div className={s.Myfriendsdimg}>
-            <img src="https://www.meme-arsenal.com/memes/335bf12b9769dbcefc4de998cd023aae.jpg" alt=""/>
-            </div>
-            <div className={s.myfriends__Div__Text}>
-              sdjkhsdjkh
-            </div>
-            </div> */}
+            

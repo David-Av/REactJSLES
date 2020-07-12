@@ -10,26 +10,28 @@ import Post from "./Post/post";
 // let postsElements = posts
 // .map(element => <Post message = {element.post} like={element.likes}/>)
 const Myposts = (props) => {
-  let postsElements = props.mypost
-  .map(element => <Post message = {element.post} like={element.likes}/>)
+  let postsElements = props.mypost.map((element) => (
+    <Post message={element.post} like={element.likes} />
+  ));
+  let newPostElement = React.createRef();
+    let addPost = () => {
+      let text = newPostElement.current.value;
+      alert(text)}
   return (
     <div className={s.postsBlock}>
-     <h2> MY POSTS</h2>
+      <h2 > MY POSTS</h2>
       <div>
-        <textarea></textarea>
+        <textarea ref={newPostElement}></textarea>
       </div>
       <div>
-        <button>Add post</button>
+        <button onClick={addPost}>Add post</button>
       </div>
       <div className={s.posts}>NEW POST</div>
 
-    {postsElements}
-
-    
+      {postsElements}
     </div>
   );
 };
-
 
 export default Myposts;
 {
@@ -42,4 +44,3 @@ export default Myposts;
           POST 2
         </div> */
 }
-
