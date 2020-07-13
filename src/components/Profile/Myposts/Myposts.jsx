@@ -17,7 +17,7 @@ const Myposts = (props) => {
     let addPost = () => {
       props.addPost()
     }
-    let onChange = () =>{
+    let onPostChange = () =>{
       let text = newPostElement.current.value;
       props.updateNewPostText(text)
     }
@@ -25,11 +25,12 @@ const Myposts = (props) => {
     <div className={s.postsBlock}>
       <h2 > MY POSTS</h2>
       <div>
-        <textarea 
-        onChange = {onChange}
+        {/* <textarea 
         ref={newPostElement} value={props.newPostText}
-          
-        />
+        onChange = {onPostChange}  
+        /> */}
+        <input type="text"  autoFocus="true"  ref={newPostElement} value={props.newPostText}
+        onChange = {onPostChange}  />
       </div>
       <div>
         <button onClick={addPost}>Add post</button>

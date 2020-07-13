@@ -191,4 +191,8 @@ himkva aracov poxvuma UI@ bayc state@ chi poxvum add post sxmum enq avelanum
 a bayc state@-i mej ban chi poxvum dra hamar ej@ vor refresh enq anum 
 koruma post@ voncvor esi bacatruma asenq unenq text area dra mejin@
 sax petqa ga BLL-ic state-ic aysinqn uzuma asi vor text arean uzum enq poxenq asenq grecinq mi tar mej@ eti gnuma Bll aysinqn state @ndex 
-poxvuma u heta galis UI
+poxvuma u heta galis UI poxecinq bayc shat vata ashxatum u chem haskanum
+xi {uxecinq sarqecinq input mejnel vorpes atribut grecinq autoFocus="true"}
+/////////////////////////////////////////////////////////////////////
+*********************************************************************
+das 35
