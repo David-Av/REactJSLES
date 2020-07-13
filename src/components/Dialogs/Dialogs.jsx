@@ -26,7 +26,7 @@ let Dialogs = (props) => {
       <div className={s.messages}>
         {messagesElement}
       </div>
-      <textarea ref={messageRef} ></textarea>
+      <input type="text" ref={messageRef} ></input >
       <button onClick={addMessageAlert}>AddMessage</button>
     </div>
   );
