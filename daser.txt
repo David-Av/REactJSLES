@@ -207,3 +207,19 @@ let rerenderEntireTree
     rerenderEntireTree = observer
   }
   kochvuma pattern petqa kardal dra masin observer petqa patternner@ nayel
+  ////////////////////////////////////////////////////////////////////
+  ********************************************************************
+  das 37
+  state@ qcum enq store object-i mej vor oop-in nmanvi bayc stex mihat
+  ban ka menq stat@ kacnhum enq getterov isk getteri mej graca this
+  u getter@ kanchum enq index js-um petq ushadir linel this-i het
+  callback-i vaxta haram linum erb vor kanchum enq iran ay senc ()
+  nayi aysinqn menq propsner@ poxancelov gnum hascnum enq mypost-in
+  u dusa galis vor orinak addPost@ erb vor ashxatuma  funcian mej@
+  graca this bayc et this@ michev my profile-ov poxancvac object-ina
+  verabervum arden dra hamar amenaskzbic poxanceluc index.js-um petqa
+  iran bind anenq store-in ay senc addPost={store.addPost.bind(store)
+  ay sen hima bind araca u iran vor kanchenq arden kpaca store-in
+  u this@ kashxati store-i hamar
+  MENQ HIMA MER ARANZIN REDUXN ENQ SARQUM HETO KANCNENQ ISKAKAN REDUXIN
+  
