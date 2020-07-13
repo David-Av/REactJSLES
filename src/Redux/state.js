@@ -6,7 +6,8 @@ import {rerenderEntireTree} from '.././render';
             {id:1,post:"hi, how are you?" , likes : 12},
             {id:2,post:"It's my first POst" , likes : 187},
             {id:3, post:"post"}
-          ]
+          ],
+          newPostText:"David"
       },
       messagesPage:{
               //DIalogsic
@@ -40,11 +41,16 @@ import {rerenderEntireTree} from '.././render';
 export let addPost = (postMessage) =>{
     let newPost = {
       id:7,
-      post:postMessage,
+      post:state.profilePage.newPostText,
       likes: 0
     };
     state.profilePage.posts.push(newPost)
+    state.profilePage.newPostText = "";
     rerenderEntireTree(state)
   }
 
+  export let updateNewPostText = (newText)=>{
+    state.profilePage.newPostText = newText
+    rerenderEntireTree(state)
+  }
   export default state;

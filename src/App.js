@@ -34,7 +34,9 @@ const App = (props) => {
           <Route
             path="/profile"
             component={() => (
-              <Profile mypost={props.appState.profilePage.posts} addPost={props.addPost} />
+              <Profile mypost={props.appState.profilePage.posts} addPost={props.addPost} newPostText={props.appState.profilePage.newPostText}
+              updateNewPostText = {props.updateNewPostText}
+              />
             )}
           />
           {/* <Profile/> */}

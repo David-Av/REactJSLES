@@ -184,3 +184,11 @@ bayc mihat taza knayes esi ciklayin xaxtumneri masinela xosum vor stat@
 chen kara mi qani tex import anenq aysinqn renderi mej petq chi state lini
 renderi mej graca prost@ funcian aranc kanchelu dra hamar stat@ petqa grenq
 kanchox texum import anenq iran tvyal depqum index.js-um import anenq
+////////////////////////////////////////////////////////////////////
+********************************************************************
+das34
+himkva aracov poxvuma UI@ bayc state@ chi poxvum add post sxmum enq avelanum
+a bayc state@-i mej ban chi poxvum dra hamar ej@ vor refresh enq anum 
+koruma post@ voncvor esi bacatruma asenq unenq text area dra mejin@
+sax petqa ga BLL-ic state-ic aysinqn uzuma asi vor text arean uzum enq poxenq asenq grecinq mi tar mej@ eti gnuma Bll aysinqn state @ndex 
+poxvuma u heta galis UI
