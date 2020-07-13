@@ -29,7 +29,7 @@ const Myposts = (props) => {
         ref={newPostElement} value={props.newPostText}
         onChange = {onPostChange}  
         /> */}
-        <input type="text"  autoFocus="true"  ref={newPostElement} value={props.newPostText}
+        <input type="text"  autoFocus={true}  ref={newPostElement} value={props.newPostText}
         onChange = {onPostChange}  />
       </div>
       <div>

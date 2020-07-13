@@ -1,4 +1,5 @@
-import {rerenderEntireTree} from '.././render';
+// import {rerenderEntireTree} from '.././render';
+let rerenderEntireTree
 
   let state = {
       profilePage:{
@@ -38,6 +39,7 @@ import {rerenderEntireTree} from '.././render';
       // verj*****************************************************************
   
   }
+  window.state = state;
 export let addPost = (postMessage) =>{
     let newPost = {
       id:7,
@@ -52,5 +54,8 @@ export let addPost = (postMessage) =>{
   export let updateNewPostText = (newText)=>{
     state.profilePage.newPostText = newText
     rerenderEntireTree(state)
+  }
+  export const subscribe = (observer) =>{
+    rerenderEntireTree = observer
   }
   export default state;

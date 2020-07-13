@@ -196,3 +196,14 @@ xi {uxecinq sarqecinq input mejnel vorpes atribut grecinq autoFocus="true"}
 /////////////////////////////////////////////////////////////////////
 *********************************************************************
 das 35
+ciklayin zavisimost petq chi vor lini orinak es index.js inch vor ban em 
+import arel render.js-ic render.js el cankali chi vor es import anem 
+index.js-ic funcianer@ vor@ menq poxancum enq inch vor mekin vor kanchi
+kochvuma callback funkcianer vobshem vor ciklayin zavisimost chlini 
+importi tex@ funciayi argumentov enq poxancum urish funkcian darav callback
+tes state.js @ heto argumentin talis enq popoxakan ay senc
+let rerenderEntireTree
+  export const subscribe = (observer) =>{
+    rerenderEntireTree = observer
+  }
+  kochvuma pattern petqa kardal dra masin observer petqa patternner@ nayel
