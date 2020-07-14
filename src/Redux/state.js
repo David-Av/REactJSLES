@@ -60,7 +60,13 @@ updateNewPostText (newText){
 },
 subscribe (observer) {
   this.rerenderEntireTree = observer
-}
+},
+    dispatch(action){
+      if(action.type === "ADD-POST"){
+        this.addPost()
+      }else if(action.type === "UPDATE-NEW-POST-TEXT")
+      this.updateNewPostText(action.newText)
+    }
 
 }
 export default store;

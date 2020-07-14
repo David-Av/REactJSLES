@@ -222,4 +222,25 @@ let rerenderEntireTree
   ay sen hima bind araca u iran vor kanchenq arden kpaca store-in
   u this@ kashxati store-i hamar
   MENQ HIMA MER ARANZIN REDUXN ENQ SARQUM HETO KANCNENQ ISKAKAN REDUXIN
-  
+  ////////////////////////////////////////////////////////////////////
+  ********************************************************************
+  das 38
+  Disaptch vonc haskaca sax metodner@ poxum enq Disaptch() metodeov
+  vorovhetec karoxa menq unenanq orinak mi 200 hat funcia u dranq
+  hertov componentnnerin poxacnel@ etqan el harmar chi Disaptchin
+  petqa poxancel argumenq defaultov anun@ dnum enq action 
+  et object@ petqa unena type svoystvan mej@ grac vor funcian petqa
+  ashxati aysinqn senc
+      dispatch(action){
+      if(action.type === "ADD-POST"){
+        this.addPost()
+      }else if(action.type === "UPDATE-NEW-POST-TEXT")
+      this.updateNewPostText() //chmoranas this-i arandznahatkutyunneri masin//
+    }
+
+    sax poxecinq funcianer@ drecinq dispatch-i mej u hima liq@
+    funcianer poxancelu tex@ poxancum enq mihat dispatch
+    orinak my postic ay senc
+        let addPost = () => {
+      props.dispatch({type:"ADD-POST"})
+    }
