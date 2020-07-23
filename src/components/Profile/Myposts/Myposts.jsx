@@ -4,6 +4,7 @@ import Post from "./Post/post";
 import {addPostActionCreator,upDateNewPostTextActionCreator} from '../../../Redux/state'
 
 const Myposts = (props) => {
+
   let postsElements = props.mypost.map((element) => (
     <Post message={element.post} like={element.likes} />
   ));

@@ -251,4 +251,7 @@ let rerenderEntireTree
     mej menq ruchnoy chgrenq voch mi ban ayl unenq funcia vor@ avtomat
     generacnuma et object@ aranc sxalneri normal stacvuma u state-i mej
     actionnerin typer@ grecinq const erov vor vaabshe sxalvelu dzev chlini
-    
+    ///////////////////////////////////////////////////////////////////
+    *******************************************************************
+    das 40 krknutyun inch ancel enq
+    u dialogsum avelacnum enq state-ic ekacox input sendov

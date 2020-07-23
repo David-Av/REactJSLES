@@ -15,6 +15,7 @@ import Settings from "./components/Settings/Settings";
 
 //das12----------
 const App = (props) => {
+
   return (
     <div className="app-wrapper">
         <Header />
@@ -29,7 +30,7 @@ const App = (props) => {
 
           <Route
             path="/dialogs"
-            render={() => <Dialogs state={props.appState.messagesPage} />}
+            render={() => <Dialogs state={props.appState.messagesPage} dispatch={props.dispatch} />}
           />
           <Route
             path="/profile"
