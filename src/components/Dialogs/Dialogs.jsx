@@ -2,12 +2,12 @@ import React from "react";
 import s from "./Dialogs.module.css";
 import DialogItem from "./DIalogItem/DialogItem";
 import Message from "./Message/Message";
-import {updateNewMessageBodyActionCreator,sendMessageActionCreator} from "../../Redux/state"
+import {updateNewMessageBodyActionCreator,sendMessageActionCreator} from "../../Redux/messagesPageReducer"
 let Dialogs = (props) => {
   
   let messageRef = React.createRef()
   let sendMessage =()=>{
-    // let text = messageRef.current.value;
+    //  let text = messageRef.current.value;
     let action = sendMessageActionCreator()
     props.dispatch(action)
     
@@ -16,6 +16,7 @@ let Dialogs = (props) => {
     let messageText = messageRef.current.value
     let action = updateNewMessageBodyActionCreator(messageText)
     props.dispatch(action)
+   
   }
   let messagesElement = props.state.dialogsmessages
 .map(element=> <Message message = {element.message} id = {element.id} /> )
@@ -35,7 +36,7 @@ let Dialogs = (props) => {
         {messagesElement}
         
       </div>
-      <input type="text" ref={messageRef} autoFocus={true} placeholder="Type Your Message" onChange={onTypeMessage} value={props.state.newMessageBody}></input >
+      <input type="text" ref={messageRef} autoFocus={true} placeholder="Type Your Message" onChange={onTypeMessage} ></input >
       <button onClick={sendMessage}>Send</button>
     </div>
   );

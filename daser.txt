@@ -255,3 +255,9 @@ let rerenderEntireTree
     *******************************************************************
     das 40 krknutyun inch ancel enq
     u dialogsum avelacnum enq state-ic ekacox input sendov
+
+    das41 reducer
+    reducerner@ katarum en gorcoxutyun poxum en state@ u veradarcnum en poxvac
+    state@ arandzin faylum a linum vabshe sranq amen mek@ ira hamar poxecinq
+    if elsernerl meji poxecinq switch caseerov dispatchin enq poxancum actionner@
+    amen angam sax ashxatum a tenuma inch action a mej@ u eti a anum senc dispatch@ chi mecanum u actioncreatornern el enq texapoxum reducerneri mej
